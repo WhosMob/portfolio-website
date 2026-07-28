@@ -16,14 +16,14 @@ export function Contact() {
           </p>
           <div className={styles.infoItems}>
             <a
-              href="mailto:whosmob@proton.me"
+              href="mailto:"
               className={styles.infoItem}
             >
               <Mail size={18} />
               <span>Email</span>
             </a>
             <a
-              href="https://t.me/mvbin"
+              href="https://t.me/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.infoItem}
@@ -32,7 +32,7 @@ export function Contact() {
               <span>Telegram</span>
             </a>
             <a
-              href="https://github.com/whosmob"
+              href="https://github.com/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.infoItem}
