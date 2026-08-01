@@ -3,18 +3,19 @@ import type { SkillCategory } from '@/types'
 export const skills: SkillCategory[] = [
   {
     category: 'Languages',
-    items: ['JavaScript', 'TypeScript', 'HTML5', 'CSS3'],
+    items: ['list of the languages that u know'],
   },
   {
     category: 'Frameworks',
-    items: ['React', 'Next.js', 'Vite'],
+    items: ['list of the frameworks that u know'],
   },
   {
     category: 'Libraries',
-    items: ['Tailwind CSS', 'React-router dom', 'Axios', 'TanStack Query', 'React Hook Form', 'Zod'],
+    items: ['list of the libraries that u know'],
   },
   {
     category: 'Tools',
-    items: ['Git', 'GitHub', 'VS Code', 'Figma'],
+    items: ['list of the tools that u know'],
+    
   },
 ]

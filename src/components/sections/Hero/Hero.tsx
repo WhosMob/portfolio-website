@@ -8,14 +8,10 @@ export function Hero() {
     <section id="hero" className={styles.hero}>
       <div className={`container ${styles.inner}`}>
         <p className={styles.greeting}>Hi, my name is</p>
-        <h1 className={styles.name}>Mobin.</h1>
-        <h2 className={styles.title}>I build things for the web.</h2>
+        <h1 className={styles.name}>Your Name.</h1>
+        <h2 className={styles.title}>Your title.</h2>
         <p className={styles.intro}>
-          A Self-Taught junior Front-End Developer with a strong foundation in HTML,
-CSS, Tailwind CSS, JavaScript, TypeScript, React.js.
-Experienced in developing personal projects, state management, and
-component-based architecture. Comfortable working with Git and GitHub
-workflows and focused on writing clean, maintainable code.
+          Your personal statment paragraph 
         </p>
 
         <div className={styles.buttons}>

@@ -42,7 +42,7 @@ export function Navbar() {
       <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
         <div className={`container ${styles.inner}`}>
           <a href="#" className={styles.logo}>
-            Mob's Portfolio
+            Your Portfolio
           </a>
 
           <div className={styles.links}>

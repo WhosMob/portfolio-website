@@ -8,12 +8,7 @@ export function About() {
         <SectionHeading title="About Me" />
         <div className={styles.content}>
           <p>
-            Education: <br></br>
-Currently student in Tehran
-Enghelāb-e Eslāmi National
-University of Skills. a state
-technical college in Tehran, Iran.
-
+           Your About paragraph
           </p>
         </div>
       </div>

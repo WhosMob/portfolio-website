@@ -7,7 +7,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.inner}`}>
         <p className={styles.left}>
-          &copy; {year} Mob. All rights reserved.
+          &copy; {year}  All rights reserved.
         </p>
         <p className={styles.right}>
           Built with rage &amp; anger
