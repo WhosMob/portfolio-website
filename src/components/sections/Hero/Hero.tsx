@@ -1,4 +1,4 @@
-import { Send, Mail } from 'lucide-react'
+import { Send, Mail, Phone } from 'lucide-react'
 import { GithubIcon } from '@/components/icons/GithubIcon'
 import { Button } from '@/components/ui/Button/Button'
 import styles from './Hero.module.css'
@@ -12,7 +12,7 @@ export function Hero() {
         <h2 className={styles.title}>I build things for the web.</h2>
         <p className={styles.intro}>
           A Self-Taught junior Front-End Developer with a strong foundation in HTML,
-CSS, Tailwind CSS, JavaScript, TypeScript, React.js and Tailwind CSS.
+CSS, Tailwind CSS, JavaScript, TypeScript, React.js.
 Experienced in developing personal projects, state management, and
 component-based architecture. Comfortable working with Git and GitHub
 workflows and focused on writing clean, maintainable code.
@@ -53,6 +53,13 @@ workflows and focused on writing clean, maintainable code.
             aria-label="Email"
           >
             <Mail size={20} />
+          </a>
+          <a
+            href="tel:+98"
+            className={styles.socialLink}
+            aria-label="Phone"
+          >
+            <Phone size={20} />
           </a>
         </div>
       </div>

@@ -16,33 +16,33 @@ export function Contact() {
           </p>
           <div className={styles.infoItems}>
             <a
-              href="mailto:"
+              href="mailto:WhosMob@proton.me"
               className={styles.infoItem}
             >
               <Mail size={18} />
-              <span>Email</span>
+              <span>Email: &nbsp;&nbsp; WhosMob@proton.me</span>
             </a>
             <a
-              href="https://t.me/"
+              href="https://t.me/Mvbin"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.infoItem}
             >
               <Send size={18} />
-              <span>Telegram</span>
+              <span>Telegram: &nbsp;&nbsp; T.me/Mvbin</span>
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/WhosMob"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.infoItem}
             >
               <GithubIcon size={18} />
-              <span>GitHub</span>
+              <span>GitHub: &nbsp;&nbsp; Github.com/WhosMob</span>
             </a>
             <a href="tel:+98" className={styles.infoItem}>
               <Phone size={18} />
-              <span>+98 </span>
+              <span>Phone Number: &nbsp;&nbsp; +98 </span>
             </a>
           </div>
         </div>

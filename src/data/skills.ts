@@ -11,7 +11,7 @@ export const skills: SkillCategory[] = [
   },
   {
     category: 'Libraries',
-    items: ['Tailwind CSS', 'Framer Motion', 'React Hook Form', 'Zod'],
+    items: ['Tailwind CSS', 'React-router dom', 'Axios', 'TanStack Query', 'React Hook Form', 'Zod'],
   },
   {
     category: 'Tools',
